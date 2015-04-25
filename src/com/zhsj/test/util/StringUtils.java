@@ -19,4 +19,13 @@ public class StringUtils {
 		return false;
 	}
 	
+	/**
+	 * 判断字符串是否不为空，测试分支
+	 * @param str
+	 * @return
+	 */
+	public static boolean isNotEmpty(String str){
+		return !isEmpty(str);
+	}
+	
 }
